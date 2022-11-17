@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
+import Start from './Start';
+import Splash from './Splash';
+import { Link, Route } from "wouter";
+import {useState, useEffect} from 'react'
+
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Route path="/" component={Splash}/>
+        <Route path="/Start" component={Start}/>  
+        <Route path="/Home" component={Home}/>
     </div>
   );
 }
