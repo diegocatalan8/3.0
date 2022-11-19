@@ -13,7 +13,7 @@ export default function Card({datos}) {
             <h4 className='card-title  text-center'>{title}</h4>
             <p className='card-text  text-center'>{description}</p>
         </div>
-        <a href='#' target="_blank" className='btn btn-outline-primary border-0'>Ver más</a>
+        <a href='#' target="_blank" className='btn btn-outline-dark border-0'>Ver más</a>
 
     </div>
   )

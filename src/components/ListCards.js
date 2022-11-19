@@ -13,7 +13,7 @@ export default function ListCards() {
             id:1,
             img:stardust,
             title: "Creadore Universe",
-            description:"Creadore Universe es la colección mas exclusiva de toda nuestra comunidad y tu llave de acceso a muchas cosas, nadie sabe que sigue, asi que Hold!"
+            description:"Creadore Universe es la colección mas exclusiva de toda nuestra comunidad y tu llave de acceso a muchas cosas."
         },
         {
             id:2,
@@ -37,11 +37,11 @@ export default function ListCards() {
 
     ]
   return (
-    <div  className='container d-flex justify-content-center align-items-center h-100'>
+    <div  className='container d-flex justify-content-center align-items-center '>
         <div   className='row'>
                 {
                 datos.map((item)=>(
-                    <div style={{margin:"0 auto"}} key={item.id} className="col-10 col-md-4 mt-5 mb-4">
+                    <div style={{margin:"0 auto", marginTop:"25px", marginBottom:"25px"}} key={item.id} className="col-10 col-md-3 ">
                         <Card   datos={item}/>
                     </div>
                 )
