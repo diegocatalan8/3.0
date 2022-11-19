@@ -47,7 +47,7 @@ export default function Landing() {
                                   <p className='text-justify mt-3'>3.0 Revolution es una página que centraliza los proyectos NFTs más prometedores en la tecnologia blockchain y web3 que podrán ser encontrados por medio de un motor de búsqueda, brindando al usuario todo tipo de información acerca del proyecto y una opinión de porque seria buena inversion a largo plazo.</p>
                           </div>
 
-                          <div style={{margin:"0 auto", marginTop:"15px",  }}  className='animate__animated animate__backInDown col-10 col-md-4 d-flex flex-column justify-content-center align-items-center p-5'>
+                          <div style={{ margin:"0 auto" , marginTop:"15px", }}  className='animate__animated animate__backInDown col-10 col-md-4 d-flex  justify-content-center align-items-center p-5'>
                                 <img style={{margin:"0 auto",height:"100%", position:"relative", borderRadius:"15px", opacity:"0.85" }}  width={300} src={bot} alt=""/>
                           </div>
 
